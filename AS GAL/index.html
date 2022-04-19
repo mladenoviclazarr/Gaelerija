@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <style>
+        body {
+            font-family: sans-serif;
+
+        }
+
+        #flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        #flex>div {
+
+            width: 250px;
+            height: 180px;
+            margin: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: url("plch3.png");
+            background-color: #8484f9;
+            border-radius: 14px;
+
+
+
+        }
+
+        p {
+            margin: 30px;
+            align-content: center;
+
+        }
+
+        @media screen and (max-width: 1024px) {
+            .column {
+                width: 33.33%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            .column {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gallery Heading</h1>
+    <div id="flex">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea cum quos corporis perferendis adipisci iste
+        enim ex, at laborum minus voluptatibus repudiandae iusto. Dolore, nesciunt labore odio quae unde, architecto
+        recusandae incidunt, eius magnam suscipit dignissimos officiis voluptatum pariatur reprehenderit provident!
+        Recusandae, minus ut! Laborum tenetur quo delectus adipisci laboriosam commodi quis quod consequuntur
+        exercitationem illo temporibus deleniti voluptatem eveniet veniam, quisquam voluptates autem aspernatur! Cumque
+        fugit perspiciatis et voluptate illum temporibus quam, non, repellat harum fugiat, molestiae tempore
+        voluptatibus alias ex! Fugiat itaque sint consequuntur esse reprehenderit, molestiae eveniet nemo aliquid
+        ducimus accusantium ea perferendis animi repellendus voluptatum!</p>
+</body>
+
+</html>
